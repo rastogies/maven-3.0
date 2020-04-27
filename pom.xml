@@ -13,7 +13,7 @@
       <name>Internl Releases</name>
       <url>http://localhost:8081/repository/trucks-rel/</url>
     </repository>
-    <SnapshotRepository>
+    <snapshotRepository>
       <id>deployment</id>
       <name>Internal Snapshot Releases</name>
       <url>http://localhost:8081/repository/trucks-snap/</url>
