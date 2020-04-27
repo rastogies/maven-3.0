@@ -7,18 +7,18 @@
   <version>1.0-SNAPSHOT</version>
   <name>trucks Maven Webapp</name>
   <url>http://maven.apache.org</url>
-  <distributionManagement>
+  <repositories>
     <repository>
-          <id>deployment</id>
-          <name>Internal Releases</name>
-          <url>http://localhost:8081/repository/trucks-rel/</url>
-     </repository>
-    <snapshotRepository>
-          <id>deployment</id>
-          <name>Internal Snapshot Releases</name>
-          <url>http://localhost:8081/repository/trucks-snap/</url>
+      <id>deployment</id>
+      <name>Internl Releases</name>
+      <url>http://localhost:8081/repository/trucks-rel/</url>
+    </repository>
+    <SnapshotRepository>
+      <id>deployment</id>
+      <name>Internal Snapshot Releases</name>
+      <url>http://localhost:8081/repository/trucks-snap/</url>
     </snapshotRepository>
-  </distributionManagement>
+  </repositories>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
