@@ -8,13 +8,14 @@
   <name>trucks Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <distributionManagement>
-   <repositories>
-     <repository>
-       <id>deployment</id>
-       <name>Internl Releases</name>
-       <url>http://localhost:8081/repository/trucks-rel/</url>
-     </repository>
-    </repositories>
+    <snapshotRepository>
+      <id>nexus-snapshots</id>
+      <url>http://localhost:8081/repository/trucks-snap/</url>
+    </snapshotRepository>
+    <repository>
+      <id>nexus-releases</id>
+      <url>http://localhost:8081/repository/trucks-rel//</url>
+    </repository>
   </distributionManagement>
   <dependencies>
     <dependency>
